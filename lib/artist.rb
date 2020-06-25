@@ -21,7 +21,8 @@ class Artist
         # @songs << song
         puts "self.all #{@@all.length}"
         song.artist = self
-    end
+        binding.pry
+end
 
     def songs
         Song.all
