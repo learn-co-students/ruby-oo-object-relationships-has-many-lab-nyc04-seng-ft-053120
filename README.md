@@ -41,7 +41,7 @@ need to have an `artist=()` and `artist` method. And an individual artist will
 need a method that returns a collection of all the songs that belong to that
 artist. Which means the song class will need to have a class variable that holds
 all instances of every song that's been created in an array. To access that
-array, the song class will also need a class method that returns the class
+array, the song class will also need a class method that return the class
 variable holding those instances.
 
 ![Author and Posts](https://curriculum-content.s3.amazonaws.com/module-1/ruby-oo-relationships/has-many-lab/Image_139_CodeObjectsRelations%28C%29.png)
